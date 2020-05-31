@@ -38,16 +38,16 @@ public class App {
             model.put("heroes", heroes);
             Hero heroFound = Hero.findById(id);
             model.put("heroFound", heroFound);
-            return new ModelAndView(model, "add_to_squad.hbs");
+            return new ModelAndView(model, "new_squad.hbs");
         }, new HandlebarsTemplateEngine());
 
-        post("/squad-created", (request, response) -> {
+        post("/new_squad", (request, response) -> {
             Map<String, Object> model = new HashMap<>();
             String name = request.queryParams("name");
             String motive = request.queryParams("motive");
             int maxSize = Integer.parseInt(request.queryParams("size"));
             Squad squad = new Squad(name, motive, maxSize);
-            return new ModelAndView(model, "squad-success.hbs");
+            return new ModelAndView(model, "squad_success.hbs");
         }, new HandlebarsTemplateEngine());
 
         get("/squads", (request, response) -> {
