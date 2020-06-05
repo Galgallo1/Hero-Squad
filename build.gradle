@@ -3,7 +3,7 @@ plugins {
     id 'application'
 }
 
-group 'com.victorteka'
+group 'com.galgallo'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
@@ -19,6 +19,6 @@ dependencies {
     compile 'org.slf4j:slf4j-simple:1.7.21'
 }
 
-applicationName = "my-heroes-squad"
+applicationName = "my-heroes-squadi"
 mainClassName = 'App'
 task stage(dependsOn: ['clean', 'installDist'])
