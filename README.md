@@ -21,7 +21,7 @@ This web application lets you create your own hero then from the heroes you have
 * JUnit
 
 ## Contact
-Email [Galgallo_Tadicha](tadichalgallo@gmail.com)
+Feel free to reach out to me in case of any question @ tadichgalgallo@gmail.com
 
 ## License
 MIT License [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
