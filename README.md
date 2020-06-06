@@ -10,7 +10,7 @@ This web application lets you create your own hero then from the heroes you have
 ## Setup/Installation
 * Have jdk11 installed
 * An IDE of your choice preferably Intellij
-* Clone the repo  ``` git clone https://github.com/Victorteka/Herosqaud.git``` 
+* Clone the repo  ``` https://github.com/Galgallo1/Hero-Squad.git``` 
 * Open your folder in the IDE
 * Run the build.gradle to install your dependencies, then hit run button in your Idea 
 
